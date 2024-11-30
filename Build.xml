@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+	<set name="HXCPP_CPP17" value="1" />
+	<set name="libcron" value="${haxelib:libcron}/libcron/libcron" />
+	<files id="haxe">
+		<compilerflag value="-DUSE_OS_TZDB" />
+		<compilerflag value="-I${libcron}/src" />
+		<compilerflag value="-I${libcron}/include" />
+		<compilerflag value="-I${libcron}/externals/date/include/" />
+		<compilerflag value="-I${libcron}/externals/date/src/" />
+		<compilerflag value="-I${haxelib:libcron}/src/libcron_internal/" />
+		<file name="${libcron}/src/CronClock.cpp" />
+		<file name="${libcron}/src/CronData.cpp" />
+		<file name="${libcron}/src/CronRandomization.cpp" />
+		<file name="${libcron}/src/CronSchedule.cpp" />
+		<file name="${libcron}/src/Task.cpp" />
+		<file name="${libcron}/externals/date/src/tz.cpp" />
+	</files>
+</xml>

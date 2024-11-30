@@ -1,0 +1,3 @@
+[submodule "libcron"]
+	path = libcron
+	url = https://github.com/PerMalmberg/libcron

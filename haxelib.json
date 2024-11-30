@@ -1,0 +1,16 @@
+{
+    "version": "0.0.0",
+    "contributors": [
+        "l0go"
+    ],
+    "license": "ZLib",
+    "tags": [
+    ],
+    "releasenote": "0.0.0",
+    "dependencies": {
+    },
+    "classPath": "src",
+    "name": "libcron",
+    "description": "",
+    "url": ""
+}
