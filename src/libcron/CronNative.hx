@@ -5,7 +5,7 @@ package libcron;
 @:native('libcron::Cron<libcron::LocalClock, libcron::NullLock>')
 @:structAccess
 extern class CronNative {
-	public function new() {}
+	public function new();
 
 	@:native("remove_schedule")
 	public function removeSchedule(name: cpp.StdString): Void;
